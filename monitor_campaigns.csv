@@ -1,0 +1,18 @@
+# Campaign tracking configuration
+# Format: symbol,start_time_utc,end_time_utc,reward_pool_usdt,fee_type,reward_cap
+# Time format: YYYY-MM-DD HH:MM:SS or YYYY-MM-DD (defaults to 00:00:00)
+# fee_type: buy_only (只算买方手续费) 或 total (买+卖总手续费)，默认 buy_only
+# reward_cap: 每人最多拿奖池的百分比 (0.03=3%)，0 或留空表示无上限
+# Lines starting with # are comments
+
+# BIO Campaign - 完整时间范围
+#BIOUSDT,2025-12-01 12:00:00,2025-12-15 23:59:59,200000,buy_only,0.03
+
+# RAVE Campaign
+RAVEUSD1,2025-12-12 14:00:00,2025-12-26 14:00:00,200000,buy_only,0.03
+
+# RTX Campaign
+RTXUSD1,2025-12-19 10:00:00,2025-12-29 14:00:00,150000,buy_only,0.03
+
+# GUA Campaign
+#GUAUSDT,2025-12-3 13:00:00,2025-12-10 23:59:00,50000,total,0.03

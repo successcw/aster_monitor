@@ -1,0 +1,10 @@
+# Example API configuration for a single account
+# Copy this file to config/myaccount.yaml and fill in your credentials
+
+api_key: "your_api_key_here"
+secret: "your_secret_here"
+
+# Optional: Telegram notifications
+risk:
+  telegram_token: "your_bot_token"  # Create via @BotFather
+  telegram_chat: "your_chat_id"     # Get via @userinfobot
